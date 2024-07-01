@@ -1,8 +1,8 @@
 # UIUC-Chan Suite
 
-- [Hip With the Youth](#hip-with-the-youth-)
-- [An Unlikely Partnership](#an-unlikely-partnership-)
-- [The Weakest Link](#the-weakest-link-)
+- [Hip With the Youth](#hip-with-the-youth)
+- [An Unlikely Partnership](#an-unlikely-partnership)
+- [The Weakest Link](#the-weakest-link)
 
 ## Hip With the Youth
 
