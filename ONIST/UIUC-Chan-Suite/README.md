@@ -123,7 +123,7 @@ Upon entering Spotify, the first place I thought to check was the followers list
 
 In [`Lisanetrasil`'s playlist](https://open.spotify.com/user/8qifrzc0txb07jrysf9kvmlvw), two names stood out to me: `X://` and `Metrobus`.
 
-<img src="./images/3_Lisa-Spotify-Playlists.png" width="500">
+<img src="./images/3_Lisa-Spotify-PlayLists.png" width="500">
 
 Although I tried searching on X, I didn’t find any useful information.
 
