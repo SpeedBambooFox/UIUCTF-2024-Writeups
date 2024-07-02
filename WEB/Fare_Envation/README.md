@@ -157,7 +157,7 @@ const newJwt = jwt.sign({ type: 'conductor' }, secretKey, { algorithm: 'HS256', 
 console.log(newJwt)
 ```
 
-We modify the `access token` in cookies to the conductor JWT we generated, and click the `I'm a Passenger` agagin, the flag appears in alert, as shown in the image below:
+We modify the `access token` in cookies to the conductor JWT we generated, and click the `I'm a Passenger` again, the flag appears in alert, as shown in the image below:
 
 ![The Website](./images/image6.png)
 

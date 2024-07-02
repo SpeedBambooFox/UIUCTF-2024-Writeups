@@ -68,7 +68,7 @@ After my initial inspection of the site, I didn't find anything interesting, so 
 
 After checking the given file, I realized this is the source code of the site in the challenge, and in the `backend` folder, I found `flag.txt`, which should be where the flag is located, then I started looking for any way to access `flag.txt`.
 
-After a bit of searching, I realized that the login function didn't really help in finding flags. After thinking about it for a while, since I have experience in writing websites using the Next.js framework, it occurred to me that Next.js is a server-side rendering web framework, so I look for any vulnerabilities that would help me to access the server-side to get `flag.txt`.
+After a bit of searching, I realized attack the login function didn't really help in finding flags. After thinking about it for a while, since I have experience in writing websites using the Next.js framework, it occurred to me that Next.js is a server-side rendering web framework, so I look for any vulnerabilities that would help me to access the server-side to get `flag.txt`.
 
 Then I found `CVE-2024-34351`, which was discovered in May of this year, and it was fixed in Next.js `v14.1.1`, and I found that the Next.js version of the source code is `14.1.0`, the following is a detailed introduction to the vulnerability:
 
