@@ -10,7 +10,8 @@ Solver: `Aura` in `SpeedBambooFox`
 
 ```
 Category: OSINT
-Points:  81/500
+Author: Emma
+Points: 81/500
 Solves: 567/958
 ```
 
@@ -52,6 +53,7 @@ Solver: `Aura` in `SpeedBambooFox`
 
 ```
 Category: OSINT
+Author: Emma
 Points: 100/500
 Solves: 511/958
 ```
@@ -92,6 +94,7 @@ Solver: `Aura` in `SpeedBambooFox`
 
 ```
 Category: OSINT
+Author: Emma
 Points: 393/500
 Solves: 149/958
 ```
