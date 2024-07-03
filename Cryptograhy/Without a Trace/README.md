@@ -17,41 +17,41 @@ Solves: 298/959
 
 
 ### Overview
-In this challenge, participants interact with a server script (`server.py`) written in Python that manipulates a 5x5 matrix based on user input. The goal is to decode a flag hidden within a secret matrix derived from segments of the flag.
+In this challenge, participants interact with a server script `server.py` written in Python that manipulates a 5x5 matrix based on user input. The goal is to decode a flag hidden within a secret matrix derived from segments of the flag.
 
 ## Details
 
-The server provided a 5x5 matrix \( M \) and prompted users to input values for its diagonal. Using these inputs, the server computed the trace of the product of matrix \( M \) and a secret matrix \( F \), which was derived from segments of a hidden flag. Each diagonal element of \( F \) was derived from converting chunks of the flag into long integers using the `bytes_to_long` function.
+The server provided a 5x5 matrix ` M ` and prompted users to input values for its diagonal. Using these inputs, the server computed the trace of the product of matrix ` M ` and a secret matrix ` F `, which was derived from segments of a hidden flag. Each diagonal element of ` F ` was derived from converting chunks of the flag into long integers using the `bytes_to_long` function.
 
 ## Objective
 
-The objective was to decode the flag encoded within matrix \( F \). This involved:
-- Interacting with the server to submit various diagonal values for matrix \( M \).
+The objective was to decode the flag encoded within matrix ` F `. This involved:
+- Interacting with the server to submit various diagonal values for matrix ` M `.
 - Recording the resulting trace outputs returned by the server.
 - Formulating a system of linear equations using these traces.
-- Solving the system of equations to deduce the numeric values of the parts of the flag encoded in matrix \( F \).
+- Solving the system of equations to deduce the numeric values of the parts of the flag encoded in matrix ` F `.
 - Converting these numeric values back into bytes and decoding them to reconstruct the flag.
 
 ## Solution
 ### Step 1: Understanding Matrix Manipulation
 
-The server uses the diagonal elements of the matrix \( M \) to influence the calculation of the trace of \( F \times M \). This trace is essentially the sum of the products of corresponding diagonal elements of \( F \) and \( M \):
+The server uses the diagonal elements of the matrix ` M ` to influence the calculation of the trace of ` F * M `. This trace is essentially the sum of the products of corresponding diagonal elements of ` F ` and ` M `:
 
 $$ \text{trace}(F \times M) = f1 \times m1 + f2 \times m2 + f3 \times m3 + f4 \times m4 + f5 \times m5 $$
 
-where \( f1, f2, f3, f4, f5 \) are the diagonal elements of \( F \), and \( m1, m2, m3, m4, m5 \) are the diagonal inputs provided for \( M \).
+where ` f1, f2, f3, f4, f5 ` are the diagonal elements of ` F `, and ` m1, m2, m3, m4, m5 ` are the diagonal inputs provided for ` M `.
 
 ### Step 2: Interacting with the Server
 
-The matrix \( M \) was manipulated by inputting different sets of diagonal values. For example, setting all diagonal values to 1 for simplicity in the initial tests, and varying them to systematically build a set of linear equations based on the server's trace responses.
+The matrix ` M ` was manipulated by inputting different sets of diagonal values. For example, setting all diagonal values to 1 for simplicity in the initial tests, and varying them to systematically build a set of linear equations based on the server's trace responses.
 
 ### Step 3: Formulating Linear Equations
 
-Each combination of inputs for \( M \) and the corresponding trace response from the server allowed us to build one equation. The coefficients of the variables in these equations were directly influenced by the values input into the diagonal of \( M \).
+Each combination of inputs for ` M ` and the corresponding trace response from the server allowed us to build one equation. The coefficients of the variables in these equations were directly influenced by the values input into the diagonal of ` M `.
 
 ### Step 4: Solving the Equations
 
-Using Python's SymPy library, we set up and solved the system of linear equations to find the numeric values of \( f1, f2, f3, f4, f5 \), each representing a segment of the flag.
+Using Python's SymPy library, we set up and solved the system of linear equations to find the numeric values of ` f1, f2, f3, f4, f5 `, each representing a segment of the flag.
 
 ### Step 5: Decoding the Flag
 
