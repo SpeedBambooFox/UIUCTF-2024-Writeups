@@ -1,9 +1,9 @@
 # UIUCTF-2024-Writeups
 
 ## UIUCTF-2024 Info
-> Format: Jeopardy
-> Organizers: [SIGPwny](https://ctftime.org/team/27763)
-> Official URL: http://2024.uiuc.tf/
+> Format: Jeopardy  
+> Organizers: [SIGPwny](https://ctftime.org/team/27763)  
+> Official URL: http://2024.uiuc.tf/  
 > 
 > Description: A massive outage is affecting the entire transit system! The SIGPwny Transit Authority has issued an emergency call to CTF teams for help with restoring service. Solve challenges to fix stations and deliver as many passengers as you can!
 
