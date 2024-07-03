@@ -9,6 +9,7 @@ Solver: `Aura`, `Hank` in `SpeedBambooFox`
 
 ```
 Category: OSINT
+Author: CBCicada
 Points: 121/500
 Solves: 466/958
 ```
@@ -57,6 +58,7 @@ Solver: `Aura`, `Rasul` in `SpeedBambooFox`
 
 ```
 Category: OSINT
+Author: CBCicada, Emma
 Points: 319/500
 Solves: 225/958
 ```
