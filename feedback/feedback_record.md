@@ -20,7 +20,7 @@
 3. Why solve?
     * ...
 4. Why not solve?
-    * Summarize: My math is worst to reduction calculation.
+    * `Summarize`: My math is worst to reduction calculation.
 
 ## Cryptography
 1. Who working on this:
