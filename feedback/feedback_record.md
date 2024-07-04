@@ -39,15 +39,15 @@
     * Surf the Internet
       * Description: Like a treasure hunt, finding the final flag through hidden hints in each web page.
       * Challanges
-        * [x] `Hip With the Youth`
-        * [x] `An Unlikely Partnership`
-        * [x] `The Weakest Link`
+        * `[v] Hip With the Youth`
+        * `[v] An Unlikely Partnership`
+        * `[v] The Weakest Link`
     * Geoguessr
       * Description: Search for locations that match the characteristics within a photo.
       * Challanges
-        * [x] `Night`
-        * [x] `Chunky Boi`
-        * [ ] `New Dallas`
+        * `[v] Night`
+        * `[v] Chunky Boi`
+        * `[ ] New Dallas`
 4. Why solve?
     * Surf the Internet: Successfully finding the hints in each web page and ultimately finding the flag.
     * Geoguessr: Successfully identifying key elements in the photo and searching for useful information.
