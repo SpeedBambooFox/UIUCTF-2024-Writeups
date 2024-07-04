@@ -24,13 +24,15 @@
 
 ## Cryptography
 1. Who working on this:
-    * `Hank`
+    * `Hank`, `Rasul`
 2. Summary of the category:
     * Encode and Decode
 3. Why solve?
     * Solve similar problem before(from Training)
+    * Matrix is cool! 
 4. Why not solve?
-    * Some problems is not intuition, it needs telepathy.
+    * Some problems is not intuition, it needs telepathy. XD
+    * Lack of resources to implement straightforward solution (bruteforce)
     * Not good at Math :((
 
 ## OSINT
