@@ -24,13 +24,14 @@
 
 ## Cryptography
 1. Who working on this:
-    * ...
+    * ``Hank`
 2. Summary of the category:
-    * ...
+    * Encode and Decode
 3. Why solve?
-    * ...
+    * Solve similar problem before(from Training)
 4. Why not solve?
-    * ...
+    * Some problems is not intuition, it needs telepathy.
+    * Not good at Math :((
 
 ## OSINT
 1. Who working on this:
@@ -66,7 +67,7 @@
 
 ## Misc
 1. Who working on this:
-    * Fietyata
+    * `Fietyata`, `Hank`
 2. Summary of the category:
     * General task related to CTF e.g. Feedback, sanitary check
     * General challenges but hard task
