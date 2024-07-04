@@ -138,6 +138,10 @@ I discovered that `UIUC Chan` was consistently listening to a playlist, and upon
 
 <img src="./images/3_UIUC-Chan-Spotify-Activity.png" width="500">
 
+Finally, found the flag in the description under the playlist title.
+
+<img src="./images/3_UIUC-Chan-Spotify-PlayList.png" width="500">
+
 ### Flag
 
 `uiuctf{7rU1Y_50N65_0F_7H3_5UMM3r_432013}`
