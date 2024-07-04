@@ -57,13 +57,14 @@
 
 ## Web
 1. Who working on this:
-    * ...
+    * `Flex`
 2. Summary of the category:
-    * ...
+    * We need to find any way to find the flag through a web vulnerability.
 3. Why solve?
-    * ...
+    * Web development experience.
 4. Why not solve?
-    * ...
+    * `pwnypass`: I didn't find anyway to access the chrome extension local storage
+    * `pwnypass2`: same as pwnypass
 
 ## Misc
 1. Who working on this:
