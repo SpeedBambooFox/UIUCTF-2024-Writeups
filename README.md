@@ -2,7 +2,9 @@
 
 ## UIUCTF-2024 Info
 
+> CTFTime: [Link](https://ctftime.org/event/2275/)
 > Format: Jeopardy  
+> Rating weight: 67.51
 > Organizers: [SIGPwny](https://ctftime.org/team/27763)  
 > Official URL: http://2024.uiuc.tf/
 >
