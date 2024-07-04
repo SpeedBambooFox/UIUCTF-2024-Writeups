@@ -14,23 +14,24 @@
 
 ## Reverse Engineering
 1. Who working on this:
-    * ...
+    * `Chris Huang`, `Chris Chang`,`Fietyata`
 2. Summary of the category:
-    * ...
+    *  Description: This category need ous to revese the given exe file and finding the correct input to get the flag
 3. Why solve?
     * ...
 4. Why not solve?
-    * ...
+    * Summarize: My math is worst to reduction calculation.
 
 ## Cryptography
 1. Who working on this:
-    * ...
+    * `Hank`
 2. Summary of the category:
-    * ...
+    * Encode and Decode
 3. Why solve?
-    * ...
+    * Solve similar problem before(from Training)
 4. Why not solve?
-    * ...
+    * Some problems is not intuition, it needs telepathy.
+    * Not good at Math :((
 
 ## OSINT
 1. Who working on this:
@@ -56,17 +57,18 @@
 
 ## Web
 1. Who working on this:
-    * ...
+    * `Flex`
 2. Summary of the category:
-    * ...
+    * We need to find any way to find the flag through a web vulnerability.
 3. Why solve?
-    * ...
+    * Web development experience.
 4. Why not solve?
-    * ...
+    * `pwnypass`: I didn't find anyway to access the chrome extension local storage
+    * `pwnypass2`: same as pwnypass
 
 ## Misc
 1. Who working on this:
-    * Fietyata
+    * `Fietyata`, `Hank`
 2. Summary of the category:
     * General task related to CTF e.g. Feedback, sanitary check
     * General challenges but hard task
