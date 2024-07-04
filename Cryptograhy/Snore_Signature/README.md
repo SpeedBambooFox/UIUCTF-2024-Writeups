@@ -1,6 +1,4 @@
-# UIUC-Chan Suite
-
-## Snore Signatures
+# Snore Signatures
 
 Solver: `Andy` in `SpeedBambooFox`
 
@@ -11,11 +9,11 @@ Points: 416/500
 Solves: 17/122
 ```
 
-### Challange description
+## Challange description
 
 > These signatures are a bore!
 
-### Overview
+## Overview
 In this challenge, the challenge provide a snore signature process. 
 1. The program will generate a ```snore group```: $(p, q, g)$
 2. Then repeat 10 times:
@@ -23,8 +21,8 @@ In this challenge, the challenge provide a snore signature process.
 > 2. Without changing the $e$, user inputs a new message $m_2$ and a forged signature $s_2$
 3. After 10 times sucess, we will get the flag.
 
-### Snore Signature Process
-#### I. Group Generation (```gen_snore_group```)
+## Snore Signature Process
+### I. Group Generation (```gen_snore_group```)
 Generates the fundamental parameters for the signature scheme
 1. Generate a prime $q$ of N bits (default 512 bits).
 2. Find a prime $p$ such that $p = X - X \\ mod \\ (2q) + 1$, where $X$ is a random 2N-bit number. This ensures that $p - 1$ is divisible by $q$.
@@ -34,12 +32,12 @@ Generates the fundamental parameters for the signature scheme
 > 2. Compute $g = h^r \\ mod \\ p$. If $g ≠ 1$, it's a valid generator.
 - The resulting $(p, q, g)$ form a cyclic subgroup of order $q$ within $Z_p*$.
 
-#### II. Key Generation (```snore_gen```):
+### II. Key Generation (```snore_gen```):
 - Private key: $x$ is randomly chosen from $[1, q-1]$.
 - Public key: $y = g^{(-x)} \\ mod \\ p$.
 > Note: This is slightly different from standard Schnorr, which usually uses $y = g^x \\ mod \\ p$.
 
-#### III. Signing Process (```snore_sign```):
+### III. Signing Process (```snore_sign```):
 Input: message $m$, private key $x$, group parameters $(p, q, g)$
 1. Choose a random $k$ from $[1, q-1]$.
 2. Compute $r = g^k \\ mod \\ p$.
@@ -48,14 +46,14 @@ Input: message $m$, private key $x$, group parameters $(p, q, g)$
 4. Compute $s = (k + x * e) \\ mod \\ q$.
 5. The signature is the pair $(s, e)$
 
-#### IV. Verification Process (```snore_verify```):
+### IV. Verification Process (```snore_verify```):
 Input: message $m$, signature $(s, e)$, public key $y$, group parameters $(p, q, g)$
 1. Check if $0 < s < q$. If not, the signature is **invalid**.
 2. Compute $rv = (g^s * y^e) \\ mod \\ p$.
 3. Compute $ev = hash((rv + m) \\ mod \\ p) \\ mod \\ q$.
 4. The signature is valid if $ev == e$.
 
-### Solution
+## Solution
 - Observe the signature process, we can find that
 - With same $(p, k, g), x, y$
 - If $m$ with key $(r, e)$ is a valid signature, $m+p$ with key $(r, e)$ will also be a valid signature
