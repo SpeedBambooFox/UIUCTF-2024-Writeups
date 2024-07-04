@@ -24,7 +24,7 @@
 
 ## Cryptography
 1. Who working on this:
-    * ``Hank`
+    * `Hank`
 2. Summary of the category:
     * Encode and Decode
 3. Why solve?
