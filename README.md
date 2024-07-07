@@ -2,9 +2,9 @@
 
 ## UIUCTF-2024 Info
 
-> CTFTime: [Link](https://ctftime.org/event/2275/)
+> CTFTime: [Link](https://ctftime.org/event/2275/)  
 > Format: Jeopardy  
-> Rating weight: 67.51
+> Rating weight: 67.51  
 > Organizers: [SIGPwny](https://ctftime.org/team/27763)  
 > Official URL: http://2024.uiuc.tf/
 >
@@ -18,7 +18,7 @@
 ## Solved:
 
 | Category |       Challanges        |                                                  Writeup                                                  |
-|:--------:|:-----------------------:|:---------------------------------------------------------------------------------------------------------:|
+| :------: | :---------------------: | :-------------------------------------------------------------------------------------------------------: |
 |  Crypto  |       Determined        |       [v](https://github.com/SpeedBambooFox/UIUCTF-2024-Writeups/tree/main/Cryptograhy/Determined)        |
 |  Crypto  |    Snore Signatures     |     [v](https://github.com/SpeedBambooFox/UIUCTF-2024-Writeups/tree/main/Cryptograhy/Snore_Signature)     |
 |  Crypto  |     Without a Trace     |   [v](https://github.com/SpeedBambooFox/UIUCTF-2024-Writeups/tree/main/Cryptograhy/Without%20a%20Trace)   |
